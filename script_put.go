@@ -11,7 +11,7 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/olivere/elastic/uritemplates"
+	"github.com/otherview/elastic/uritemplates"
 )
 
 // PutScriptService adds or updates a stored script in Elasticsearch.

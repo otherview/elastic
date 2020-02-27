@@ -12,7 +12,7 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/olivere/elastic/uritemplates"
+	"github.com/otherview/elastic/uritemplates"
 )
 
 // XPackWatcherActivateWatchService enables you to activate a currently inactive watch.

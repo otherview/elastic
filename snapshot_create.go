@@ -12,7 +12,7 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/olivere/elastic/uritemplates"
+	"github.com/otherview/elastic/uritemplates"
 )
 
 // SnapshotCreateService is documented at https://www.elastic.co/guide/en/elasticsearch/reference/6.8/modules-snapshots.html.

@@ -18,7 +18,7 @@ import (
 	"runtime"
 
 	"github.com/olivere/elastic"
-	"github.com/olivere/elastic/config"
+	"github.com/otherview/elastic/config"
 )
 
 func main() {

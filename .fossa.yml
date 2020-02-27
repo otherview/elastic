@@ -12,27 +12,27 @@ analyze:
     path: .
     target: github.com/olivere/elastic
     type: go
-  - name: github.com/olivere/elastic/config
+  - name: github.com/otherview/elastic/config
     path: ./config
-    target: github.com/olivere/elastic/config
+    target: github.com/otherview/elastic/config
     type: go
-  - name: github.com/olivere/elastic/uritemplates
+  - name: github.com/otherview/elastic/uritemplates
     path: ./uritemplates
-    target: github.com/olivere/elastic/uritemplates
+    target: github.com/otherview/elastic/uritemplates
     type: go
-  - name: github.com/olivere/elastic/trace/opencensus
+  - name: github.com/otherview/elastic/trace/opencensus
     path: ./trace/opencensus
-    target: github.com/olivere/elastic/trace/opencensus
+    target: github.com/otherview/elastic/trace/opencensus
     type: go
-  - name: github.com/olivere/elastic/trace/opentracing
+  - name: github.com/otherview/elastic/trace/opentracing
     path: ./trace/opentracing
-    target: github.com/olivere/elastic/trace/opentracing
+    target: github.com/otherview/elastic/trace/opentracing
     type: go
-  - name: github.com/olivere/elastic/aws
+  - name: github.com/otherview/elastic/aws
     path: ./aws
-    target: github.com/olivere/elastic/aws
+    target: github.com/otherview/elastic/aws
     type: go
-  - name: github.com/olivere/elastic/aws/v4
+  - name: github.com/otherview/elastic/aws/v4
     path: ./aws/v4
-    target: github.com/olivere/elastic/aws/v4
+    target: github.com/otherview/elastic/aws/v4
     type: go

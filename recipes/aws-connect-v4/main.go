@@ -19,7 +19,7 @@ import (
 	"github.com/olivere/env"
 
 	"github.com/olivere/elastic"
-	aws "github.com/olivere/elastic/aws/v4"
+	aws "github.com/otherview/elastic/aws/v4"
 )
 
 func main() {

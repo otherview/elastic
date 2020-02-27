@@ -19,7 +19,7 @@ import (
 	"github.com/smartystreets/go-aws-auth"
 
 	"github.com/olivere/elastic"
-	"github.com/olivere/elastic/aws"
+	"github.com/otherview/elastic/aws"
 )
 
 func main() {

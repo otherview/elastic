@@ -7,7 +7,7 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/olivere/elastic/uritemplates"
+	"github.com/otherview/elastic/uritemplates"
 )
 
 // TasksGetTaskService retrieves the state of a task in the cluster. It is part of the Task Management API

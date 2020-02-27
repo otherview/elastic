@@ -13,7 +13,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/olivere/elastic/uritemplates"
+	"github.com/otherview/elastic/uritemplates"
 )
 
 const (
@@ -578,4 +578,32 @@ func (s *ScrollService) bodyNext() (interface{}, error) {
 	}
 	s.mu.RUnlock()
 	return body, nil
+}
+
+// DocvalueField adds a single field to load from the field data cache
+// and return as part of the search.
+func (s *ScrollService) DocvalueField(docvalueField string) *ScrollService {
+	s.ss = s.ss.DocvalueField(docvalueField)
+	return s
+}
+
+// DocvalueFieldWithFormat adds a single field to load from the field data cache
+// and return as part of the search.
+func (s *ScrollService) DocvalueFieldWithFormat(docvalueField DocvalueField) *ScrollService {
+	s.ss = s.ss.DocvalueFieldWithFormat(docvalueField)
+	return s
+}
+
+// DocvalueFields adds one or more fields to load from the field data cache
+// and return as part of the search.
+func (s *ScrollService) DocvalueFields(docvalueFields ...string) *ScrollService {
+	s.ss = s.ss.DocvalueFields(docvalueFields...)
+	return s
+}
+
+// DocvalueFieldsWithFormat adds one or more fields to load from the field data cache
+// and return as part of the search.
+func (s *ScrollService) DocvalueFieldsWithFormat(docvalueFields ...DocvalueField) *ScrollService {
+	s.ss = s.ss.DocvalueFieldsWithFormat(docvalueFields...)
+	return s
 }

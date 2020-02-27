@@ -33,7 +33,7 @@ import (
 	"golang.org/x/sync/errgroup"
 
 	"github.com/olivere/elastic"
-	"github.com/olivere/elastic/trace/opentracing"
+	"github.com/otherview/elastic/trace/opentracing"
 )
 
 func main() {
