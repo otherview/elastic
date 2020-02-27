@@ -43,7 +43,7 @@ to manage dependencies. Make sure to use a version such as `7.0.0` or later.
 To use Elastic, import:
 
 ```go
-import "github.com/olivere/elastic/v7"
+import "github.com/otherview/elastic/v7"
 ```
 
 ### Elastic 7.0
